@@ -1,11 +1,9 @@
 # Terminarz
-
 Wykonanie przez Dominik Kinal (kinaldominik@gmail.com) dla Zespół Szkół Łączności w Gdańsku ( Technikum nr 4 w Gdańsku )
 
 # Instalacja:
-
-Schema bazy danych MySQL znajduje się w terminarz.sql.
-W db.php trzeba ustawić dane do bazy danych.
+- Schema bazy danych MySQL znajduje się w terminarz.sql.
+- W db.php trzeba ustawić dane do bazy danych.
 
 # TODO:
 - lepszy system błędów (np. przy dodawaniu wpisów lub zastępstw)
