@@ -1,0 +1,231 @@
+@charset "utf-8";
+body {
+	font-weight: lighter;
+	background: url('http://www4.zsl.gda.pl/themes/mjzsltheme/assets/img/ornament.jpg');
+	margin: 0;	
+	padding: 0;
+	text-align: center;
+	font-family: Calibri, Arial;
+}
+
+a:hover {
+	color: #08c;
+	text-decoration: none;
+}
+
+a:visited {
+	outline: none;
+	text-decoration: none;
+}
+
+a {
+	outline: none;
+	color: #000;
+	text-decoration: none;
+}
+
+hr {
+	border-top: 1px solid #E4E4E4 !important;
+}
+
+#content {
+	float: right;
+	width: 100%;
+	min-height: 500px;
+	min-width: 700px;
+	background: #FFF;
+	border: 1px solid #D3D3D3;
+	border-radius: 4px 4px 4px 4px;
+	padding: 10px 10px 10px 10px;
+	box-shadow: 3px 3px 6px rgba(0, 0, 0, .2);
+}
+
+form {
+	margin: 0;
+}
+
+.form_login {
+	width: 220px;
+	background-color: #fff;
+	border: 1px solid #D3D3D3;
+	border-radius: 4px 4px 4px 4px;
+	float: right;
+	padding: 15px 15px 15px;
+	margin-left: 20px;
+	box-shadow: 3px 3px 6px rgba(0, 0, 0, .2);
+}
+
+.form_class {
+	width: 220px;
+	background-color: #fff;
+	border: 1px solid #D3D3D3;
+	border-radius: 4px 4px 4px 4px;
+	margin: 0 auto;
+	padding: 15px 15px 15px;
+	box-shadow: 3px 3px 6px rgba(0, 0, 0, .2);
+}
+
+.form_mclass {
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 5px;
+	padding-left: 20px;
+	margin-top: 7px;
+}
+
+.logo {
+	position: absolute;
+	top: 2px;
+	right: 10px;
+	height: 50px;
+}
+
+
+#naglowek {
+	width: 100%;
+	height: 55px;
+	background: #FFF;
+	border-bottom: 1px solid #D3D3D3;
+	box-shadow: 3px 3px 6px rgba(0, 0, 0, .2);
+	position: absolute;
+	top: 0;
+}
+
+#arrow_left {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	left: 0;
+	top: 0;
+	float: left;
+	font-size: 30px;
+}
+
+#arrow_right {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	right: 0;
+	top: 0;
+	float: right;
+	font-size: 30px;
+}
+
+#arrow_left_ie {
+	font-size: 30px;
+	border-right: 0;
+}
+
+#arrow_right_ie {
+	font-size: 30px;
+	border-left: 0;
+}
+
+.miesiac {
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.day {
+	width: 20px;
+	height: 18px;
+	font-size: 12px;
+	border: 1px #000 solid;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-top: -1px;
+	margin-left: -1px;
+	float: left;
+}
+
+.tadd {
+	width: 88%;
+	height: 18px;
+	font-size: 12px;
+	border-right: 0;
+}
+
+.tabday {
+	border-left: 0;
+	border-right: 0;
+	height: 12px;
+}
+
+.wpis {
+	width: 99.9%;
+	border-bottom: 1px #000 solid;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#site {
+	border: 0px;
+	width: 100%;
+	padding-right: 30px;
+}
+
+
+.ZAD {
+	background: rgb(123, 255, 123);
+}
+
+.KARTK {
+	background: #A2A2FD;
+}
+
+.PPK {
+	background: rgb(250, 250, 13);
+}
+
+.OGL {
+	background: rgb(240, 200, 13);
+}
+
+.INNE {
+	background: rgb(173, 173, 173);
+}
+
+.INNE:hover, .KARTK:hover, .ZAD:hover, .PPK:hover{
+	color: #000!important;
+}
+
+.POW {
+	background: rgb(98, 249, 255);
+}
+
+
+
+
+table, th, td {
+	border: 1px #000 solid;
+	border-collapse:collapse;
+	text-align: center!important;
+	vertical-align: top;
+}
+
+td {
+	width: 100px;
+}
+
+.td {
+	height: 80px;
+	padding: 0!important;
+	max-width: 100px!important;
+}
+
+input {
+	height: 30px!important;
+	min-width: 35px!important;
+}
+
+button {
+	margin-bottom: 5px!important;
+}
+
+.row {
+	margin-left: 0px!important;
+}
