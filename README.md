@@ -2,18 +2,19 @@
 
 Wykonanie przez Dominik Kinal (kinaldominik@gmail.com) dla Zespół Szkół Łączności w Gdańsku ( Technikum nr 4 w Gdańsku )
 
-Instalacja:
- Schema bazy danych MySQL znajduje się w terminarz.sql.
- W db.php trzeba ustawić dane do bazy danych.
+# Instalacja:
 
-TODO:
+Schema bazy danych MySQL znajduje się w terminarz.sql.
+W db.php trzeba ustawić dane do bazy danych.
+
+# TODO:
 - lepszy system błędów (np. przy dodawaniu wpisów lub zastępstw)
 - lepsze wspomaganie dla starszych przeglądarek ( ehh, ten Internet Explorer ;c )
 - przenieść przedmioty do bazy danych( z plików dodaj.php i nowezast.php )
 - czyszczenie bazy danych(wspisów, zastępstw i numerków), bo się dość szybko rozrastają
 - limity nowego hasła przy zmianie (niepuste, min. 3 znaki itd.)
 
-INFO:
+# INFO:
 - nie ma kategorii Sprawdzian ( ma nie być )
 - Konto "usunięte" ma pole `dostep` = 0
 - Konto administratora ma pole `dostep` = 2
