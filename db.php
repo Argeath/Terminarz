@@ -398,27 +398,14 @@ function generujNumerekNaTydzien() {
 function numerek() {
 	generujNumerekNaTydzien();
 	$time = getdate();
-	if (isset($_SESSION) && isset($_SESSION['login']) && $_SESSION['login'] == 'admin') {
-		for ($i = 1; $i < 6; $i++) {
-			$day = mktime(0, 0, 0, $time['mon'], $time['mday']-$time['wday']+$i, $time['year']);
-			$dayDate = getDate($day);
-			$ret = mysql_query("SELECT `numer` FROM `numerek` WHERE DATE(`data`) = DATE(FROM_UNIXTIME(" . $day . "))") or die(mysql_error());
-			$assoc = mysql_fetch_assoc($ret);
-			if ($assoc) {
-				$title = dateV('l', $day);
-				echo $dayDate['mday'] . '.' . sprintf("%02d", $dayDate['mon']) . ' (' . $title . ')<br /><h1>' . $assoc['numer'] . '</h1><br />';
-			}
-		}
-	} else {
-		for ($i = 0; $i < 1; $i++) {
-			$day = mktime(0, 0, 0, $time['mon'], $time['mday']+$i, $time['year']);
-			$dayDate = getDate($day);
-			$ret = mysql_query("SELECT `numer` FROM `numerek` WHERE DATE(`data`) = DATE(FROM_UNIXTIME(" . $day . "))") or die(mysql_error());
-			$assoc = mysql_fetch_assoc($ret);
-			if ($assoc) {
-				$title = dateV('l', $day);
-				echo $dayDate['mday'] . '.' . sprintf("%02d", $dayDate['mon']) . ' (' . $title . ')<br /><h1>' . $assoc['numer'] . '</h1><br />';
-			}
+	for ($i = 0; $i < 1; $i++) {
+		$day = mktime(0, 0, 0, $time['mon'], $time['mday']+$i, $time['year']);
+		$dayDate = getDate($day);
+		$ret = mysql_query("SELECT `numer` FROM `numerek` WHERE DATE(`data`) = DATE(FROM_UNIXTIME(" . $day . "))") or die(mysql_error());
+		$assoc = mysql_fetch_assoc($ret);
+		if ($assoc) {
+			$title = dateV('l', $day);
+			echo $dayDate['mday'] . '.' . sprintf("%02d", $dayDate['mon']) . ' (' . $title . ')<br /><h1>' . $assoc['numer'] . '</h1><br />';
 		}
 	}
 }
