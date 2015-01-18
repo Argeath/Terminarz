@@ -9,7 +9,7 @@ Wykonanie przez Dominik Kinal (kinaldominik@gmail.com) dla Zespół Szkół Łą
 - lepszy system błędów (np. przy dodawaniu wpisów lub zastępstw)
 - lepsze wspomaganie dla starszych przeglądarek ( ehh, ten Internet Explorer ;c )
 - przenieść przedmioty do bazy danych( z plików dodaj.php i nowezast.php )
-- czyszczenie bazy danych(wspisów, zastępstw i numerków), bo się dość szybko rozrastają
+- czyszczenie bazy danych(wpisów, zastępstw i numerków), bo się dość szybko rozrastają
 - limity nowego hasła przy zmianie (niepuste, min. 3 znaki itd.)
 
 # INFO:
